@@ -33,4 +33,15 @@ class MailForm::Test < ActiveSupport::TestCase
     sample.email = ''
     assert !sample.email?
   end
+  
+  test 'sample mail can reset attribute to its default value' do
+    sample = SampleMail.new
+    sample.name = 'User'
+    sample.email = 'user@example.com'
+    
+    sample.reset_name_to_default
+    assert_equal 'default', sample.name
+    sample.reset_email_to_default
+    assert_equal 'default', sample.email
+  end
 end

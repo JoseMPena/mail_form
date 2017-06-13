@@ -3,6 +3,7 @@ module MailForm
     include ActiveModel::AttributeMethods
     attribute_method_prefix 'clear_'
     attribute_method_suffix '?'
+    attribute_method_affix prefix: 'reset_', suffix: '_to_default'
     
     def self.attributes(*names)
       attr_accessor(*names)
@@ -16,7 +17,12 @@ module MailForm
     end
 
     def attribute?(attribute)
-      send(attribute).present?Zz
+      send(attribute).present?
+    end
+
+    def reset_attribute_to_default(attribute)
+      send("#{attribute}=", 'default')
+      #TODO: store away default values
     end
   end
 end
