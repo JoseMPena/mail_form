@@ -2,81 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47472228-8f66-4cd1-92f1-0b6e124243da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/images/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/javascripts/channels/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/controllers/concerns/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/models/concerns/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/lib/assets/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/log/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mail_form.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MIT-LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mail_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mail_form/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/mail_form_tasks.rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail_form.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/config/manifest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/javascripts/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/javascripts/cable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/assets/stylesheets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/channels/application_cable/channel.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/channels/application_cable/connection.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/controllers/application_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/helpers/application_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/jobs/application_job.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/mailers/application_mailer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/models/application_record.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/views/layouts/application.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/views/layouts/mailer.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/app/views/layouts/mailer.text.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/bin/bundle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/bin/rails" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/bin/rake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/bin/setup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/bin/update" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config.ru" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/application.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/boot.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/cable.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/database.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/environment.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/environments/development.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/environments/production.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/environments/test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/application_controller_renderer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/assets.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/backtrace_silencers.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/cookies_serializer.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/filter_parameter_logging.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/inflections.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/mime_types.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/new_framework_defaults.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/session_store.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/initializers/wrap_parameters.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/locales/en.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/puma.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/routes.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/secrets.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/config/spring.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/422.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/dummy/public/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/sample_mail.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/mail_form_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,11 +13,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sample_mail.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sample_mail.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/sample_mail.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
               <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/mail_form/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mail_form.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/mail_form.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -107,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mail_form.gemspec" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mail_form.gemspec" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mail_form.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="252">
+              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -141,6 +87,8 @@
         <option value="$PROJECT_DIR$/test/fixtures/sample_mail.rb" />
         <option value="$PROJECT_DIR$/test/mail_form_test.rb" />
         <option value="$PROJECT_DIR$/mail_form.gemspec" />
+        <option value="$PROJECT_DIR$/lib/mail_form/base.rb" />
+        <option value="$PROJECT_DIR$/lib/mail_form.rb" />
       </list>
     </option>
   </component>
@@ -197,6 +145,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mail_form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mail_form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,12 +331,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497338871332</updated>
-      <workItem from="1497338872500" duration="748000" />
+      <workItem from="1497338872500" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="748000" />
+    <option name="totallyTimeSpent" value="1232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
@@ -419,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_form.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mail_form_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -439,6 +393,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mail_form/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mail_form.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_form.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="56" />
           <folding />
         </state>
       </provider>
