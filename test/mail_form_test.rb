@@ -22,4 +22,15 @@ class MailForm::Test < ActiveSupport::TestCase
     assert_nil sample.name
     assert_nil sample.email
   end
+  
+  test 'sample mail can ask whether an attribute is present' do
+    sample = SampleMail.new
+    assert !sample.name?
+    
+    sample.name = 'User'
+    assert sample.name?
+    
+    sample.email = ''
+    assert !sample.email?
+  end
 end
