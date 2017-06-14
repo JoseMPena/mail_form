@@ -1,9 +1,18 @@
 module MailForm
   class Base
     include ActiveModel::AttributeMethods
+    include ActiveModel::Conversion
+    include ActiveModel::Validations
+    extend ActiveModel::Naming
+    extend ActiveModel::Translation
+    
     attribute_method_prefix 'clear_'
     attribute_method_suffix '?'
     attribute_method_affix prefix: 'reset_', suffix: '_to_default'
+
+    def persisted?
+      false
+    end
     
     def self.attributes(*names)
       attr_accessor(*names)
