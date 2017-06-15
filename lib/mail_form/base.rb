@@ -9,7 +9,14 @@ module MailForm
     attribute_method_prefix 'clear_'
     attribute_method_suffix '?'
     attribute_method_affix prefix: 'reset_', suffix: '_to_default'
+    
+    class_attribute :attribute_names
+    self.attribute_names = []
 
+    def deliver
+      valid? ? MailForm::Notifier.contact(self).deliver : false
+    end
+    
     def persisted?
       false
     end
@@ -17,6 +24,8 @@ module MailForm
     def self.attributes(*names)
       attr_accessor(*names)
       define_attribute_methods(names)
+      
+      self.attribute_names += names
     end
     
     protected
