@@ -13,6 +13,12 @@ module MailForm
     class_attribute :attribute_names
     self.attribute_names = []
 
+    def initialize(attributes = {})
+      attributes.each do |attr, value|
+        self.public_send("#{attr}=", value)
+      end if attributes
+    end
+
     def deliver
       valid? ? MailForm::Notifier.contact(self).deliver : false
     end

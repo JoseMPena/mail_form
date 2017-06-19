@@ -1,9 +1,11 @@
 # Configure Rails Environment
-ENV["RAILS_ENV"] = "test"
+ENV['RAILS_ENV'] = 'test'
 
-require File.expand_path("../../test/dummy/config/environment.rb", __FILE__)
-ActiveRecord::Migrator.migrations_paths = [File.expand_path("../../test/dummy/db/migrate", __FILE__)]
-require "rails/test_help"
+require File.expand_path('../../test/dummy/config/environment.rb', __FILE__)
+ActiveRecord::Migrator.migrations_paths = [File.expand_path('../../test/dummy/db/migrate', __FILE__)]
+require 'rails/test_help'
+require 'capybara'
+require 'capybara/rails'
 
 # Filter out Minitest backtrace while allowing backtrace from other libraries
 # to be shown.
@@ -17,4 +19,9 @@ if ActiveSupport::TestCase.respond_to?(:fixture_path=)
   ActionDispatch::IntegrationTest.fixture_path = ActiveSupport::TestCase.fixture_path
   ActiveSupport::TestCase.file_fixture_path = ActiveSupport::TestCase.fixture_path + "/files"
   ActiveSupport::TestCase.fixtures :all
+end
+
+class ActiveSupport::IntegrationCase < ActiveSupport::TestCase
+  include Capybara::DSL
+  include Rails.application.routes.url_helpers
 end

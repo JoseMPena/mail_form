@@ -19,4 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '~> 5.0.3'
 
   s.add_development_dependency 'sqlite3'
+  
+  s.add_development_dependency 'capybara'
 end
