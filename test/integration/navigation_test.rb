@@ -1,18 +1,19 @@
 require 'test_helper'
+require 'capybara'
 
 class NavigationTest < ActiveSupport::IntegrationCase
-  
+
   setup do
     ActionMailer::Base.deliveries.clear
   end
-  
+
   test 'sends an e-mail after filling the contact form' do
     visit root_path
-    
+
     fill_in 'Name', with: 'John Doe'
     fill_in 'Email', with: 'john.doe@example.com'
     fill_in 'Message', with: 'MailForm rocks!'
-    
+
     click_button 'Deliver'
     assert_match 'Your message was successfully sent.', page.body
     assert_equal 1, ActionMailer::Base.deliveries.size
@@ -20,5 +21,10 @@ class NavigationTest < ActiveSupport::IntegrationCase
     assert_equal ['john.doe@example.com'], mail.from
     assert_equal ['recipient@example.com'], mail.to
     assert_match 'Message: MailForm rocks!', mail.body.encoded
+  end
+
+  test 'Should have a hidden nickname field' do
+    visit root_path
+    assert_equal find('#contact_form_nickname', visible: false).nil?, false
   end
 end
