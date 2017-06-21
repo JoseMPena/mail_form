@@ -6,6 +6,7 @@ module MailForm
     include MailForm::Validators
     extend ActiveModel::Naming
     extend ActiveModel::Translation
+    extend ActiveModel::Callbacks
 
     attribute_method_prefix 'clear_'
     attribute_method_suffix '?'
@@ -13,16 +14,24 @@ module MailForm
 
     class_attribute :attribute_names
     self.attribute_names = []
+    
+    define_model_callbacks :deliver
 
     def initialize(attributes = {})
-      return unless  attributes
+      return unless attributes
       attributes.each do |attr, value|
         self.public_send("#{attr}=", value)
       end
     end
 
     def deliver
-      valid? ? MailForm::Notifier.contact(self).deliver : false
+      if valid?
+        run_callbacks(:deliver) do
+          MailForm::Notifier.contact(self).deliver
+        end
+      else
+        false
+      end
     end
 
     def persisted?
